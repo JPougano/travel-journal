@@ -1,0 +1,88 @@
+:root{
+    --header-orange: #F55A5A;
+    --text-color: #2B283A;
+    --href-color: #918E9B;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+    background-color: #CDCDCD;
+}
+
+a{
+    color: var(--href-color);
+}
+
+a, p{
+    font-size: 10.24px;
+}
+
+.main-container{
+    width: 550px;
+    margin: 0 auto;
+}
+
+/* Header section */
+
+.header--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--header-orange);
+    height: 55px;
+}
+
+.header--title{
+    color: #FFFFFF;
+}
+
+/* Card section */
+
+.card--container{
+    display: flex;
+    padding: 2.5rem;
+    height: 168px;
+    background-color: #FFFFFF;
+}
+
+.card--image{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card--content---subcontainer{
+    padding-left: 1rem;
+}
+
+.card--location---subcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.card--location---country{
+    text-transform: uppercase;
+    letter-spacing: 0.17rem;
+}
+
+.card--duration---subcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card--duration{
+    font-weight: 700;
+}
+
+.card--spot{
+    margin: 0;
+}
+
+.card--description{
+    line-height: 17px;
+}

@@ -1,17 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom"
+import "../src/style.css"
+import App from "./App"
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const root = document.getElementById("root")
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+function Renderize(){
+    return (
+        <div className="main-container">
+            <App />
+        </div>
+    )
+}
+
+ReactDOM.render(< Renderize/>,root)
+
+
+// Japan
+// https://source.unsplash.com/WLxQvbMyfas
+
+// Australia
+// https://source.unsplash.com/JmuyB_LibRo
+
+// Norway
+// https://source.unsplash.com/3PeSjpLVtLg
